@@ -1,0 +1,270 @@
+body { 
+    font-family: Arial, helvetica;
+    background: white;
+}
+
+.logo {
+    height: 35vh;
+    height: 88px;
+    object-fit: cover;
+    width: 15%;
+        
+        background: url(img/header.jpg) no-repeat center top;
+        background-size: cover;  
+    }
+    
+.iconos{
+    position:absolute;
+    top: 40px;
+    right: 140px;
+    width: 15vw;
+    height: 150%;
+}
+
+.log {
+    height: 35vh;
+    height: 88px;
+    object-fit: cover;
+    width: 15%;
+        
+        background: url(img/header.jpg) no-repeat center top;
+        background-size: cover;
+    }
+
+.icono{
+    position:absolute;
+    top: 40px;
+    right: 65px;
+    width: 15vw;
+    height: 150%;
+}
+
+.logo1 {
+    height: 35vh;
+    height: 88px;
+    object-fit: cover;
+    width: 15%;
+        
+        background: url(img/header.jpg) no-repeat center top;
+        background-size: cover;
+}
+
+.icono1 { 
+    position:absolute;
+    top: 50px;
+    right: 460px;
+    width: 39px;
+    height: 37px;
+    background: red;
+    text-align: center;
+    border-radius: 10%;
+    line-height: 45px;
+    border: 1px solid black;
+
+    
+}
+
+.menu{
+    list-style: none;
+    padding: 0%;
+    background: #2b0daf;
+    width: 150%;
+    max-width: 1430PX;
+    margin: auto;
+    margin-top: -160px;
+    margin-right: -20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: rgb(118, 116, 245);
+}
+
+.menu li a {
+    background-color: #2b0daf;
+    text-decoration: none;
+}
+
+.menu > li {
+    float: left;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.Imagen img{
+
+        position: absolute;
+        top: 5px;
+        right: 1165px;
+        width: 12vw;
+        height: 13%;
+}
+
+
+.menu1{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu1  li {
+    float: left;
+}
+
+.menu1 a{
+    color: #2b0daf;
+    text-decoration: none;
+    display: block;
+    padding: 80px 10px;
+    margin-top: -80px;
+    font-size: 15px;
+}
+
+.menu1{
+    float: right;
+    margin: 0 100px 0 0;
+    margin-top: -125px ;
+    
+}
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 470px;
+    height: 37px;
+    padding: 0 20px;
+    font-size: 15px;
+    background-color:white;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Arial, helvetica;
+    background: white;
+}
+
+.buscar{
+    float: right;
+    margin: 0 110px 50px 460px;
+    margin-top: -67px ;
+    
+}
+
+.btn{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 39px;
+    height: 43px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 10%;
+    cursor: pointer; 
+}
+
+.container {
+    width: 100px;
+    display: flex; 
+    max-width: 1100px;
+   
+}
+
+.Card {
+    width: 200px;
+    margin: 70px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+
+.Card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    
+}
+
+
+.Card img {
+    width: 120%;
+    height: 110px;
+    
+}
+
+.Card .contenido {
+    padding: 60px;    
+    text-align: center;
+
+}
+
+
+.Card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #2b0daf;
+}
+
+.Card .contenido a{
+    text-decoration: none;
+}
+
+footer{
+    width: 1470px;
+    background: #202020;
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-body{
+    display: inline-block;
+    
+}
+
+.colum1{
+    max-width: 400% 
+}
+
+.colum1 h1{
+    font-size: 24px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
